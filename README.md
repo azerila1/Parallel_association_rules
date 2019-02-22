@@ -19,7 +19,7 @@ frequent_petterns = mlxtend.frequent_patterns.apriori(
                                                      max_len=4
                                                      )
                                                      
-#  similar to mlxtend.frequent_patterns.association_rules:                                                    
+#  similar to mlxtend.frequent_patterns.association_rules but for computation in parallel:                                                    
 association_rules_results = parallel_association_rules (
                                                         frequent_petterns,
                                                         n_parallel_branch=mp.cpu_count(),
@@ -27,3 +27,7 @@ association_rules_results = parallel_association_rules (
                                                         min_threshold=0.7
                                                         )
 ```
+
+
+# Comparison
+![2](comparison.png "Comparison")
