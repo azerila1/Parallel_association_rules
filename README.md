@@ -16,7 +16,7 @@ frequent_petterns = mlxtend.frequent_patterns.apriori(
                                                      max_len=4
                                                      )
                                                      
-###### similar to mlxtend.frequent_patterns.association_rules:                                                    
+#  similar to mlxtend.frequent_patterns.association_rules:                                                    
 association_rules_results = parallel_association_rules (
                                                         frequent_petterns,
                                                         n_parallel_branch=mp.cpu_count(),
