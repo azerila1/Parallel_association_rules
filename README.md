@@ -14,7 +14,7 @@ For calculating frequent pattenrs an optional method is:
 # example:
 ```
 frequent_petterns = mlxtend.frequent_patterns.apriori(
-                                                     transaction_DataFrame,
+                                                     transactions_DataFrame,
                                                      min_support=0.5,
                                                      max_len=4
                                                      )
