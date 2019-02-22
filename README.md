@@ -1,10 +1,11 @@
 # Parallel_association_rules
 Parallel computing implementation of association rules learning.
 
-he external dependencies:
+external dependencies:
  * [Numpy](http://www.numpy.org/)
- * [pandas](https://pandas.pydata.org/) 
- * [mlxtend](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/#association-rules-generation-from-frequent-itemsets) (Only for calculating frequent patterns with "apriori" module. Another alternative is pyspark mllib for frequent pattern tree)
+ * [pandas](https://pandas.pydata.org/)
+For calculating frequent pattenrs a optional method is:
+ * [mlxtend](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/#association-rules-generation-from-frequent-itemsets) (with "apriori" module. Another alternative is pyspark mllib for frequent pattern tree)
 
 
 
