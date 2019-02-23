@@ -22,7 +22,7 @@ frequent_petterns = mlxtend.frequent_patterns.apriori(
 #  similar to mlxtend.frequent_patterns.association_rules but for computation in parallel:                                                    
 association_rules_results = parallel_association_rules (
                                                         frequent_petterns,
-                                                        n_parallel_branch=mp.cpu_count(),
+                                                        n_parallel_branch=multiprocessing.cpu_count(),
                                                         metric="confidence",
                                                         min_threshold=0.7
                                                         )
