@@ -1,5 +1,6 @@
 # Parallel_association_rules
 Parallel computing implementation of association rules learning.
+Along with the usage of the multiprocessing module, the source code for association-rule learning is modified such that it takes a subset of the frequent patterns beside the complete set, but only calculates the rules for the supset with regard to the complete set of the frequent patterns. The results are verified in being exactly the same as the original implementation but as shown in the below figure is faster and scalable.
 
 external dependencies:
  * [Numpy](http://www.numpy.org/)
